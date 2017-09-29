@@ -72,6 +72,10 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     tinymix
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0-impl
+
 # Display
 PRODUCT_PACKAGES += \
     copybit.msm8974 \
