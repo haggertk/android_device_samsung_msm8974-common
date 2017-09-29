@@ -91,6 +91,10 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8974 \
     memtrack.msm8974
 
+# GNSS
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@1.0-impl
+
 # Keylayouts
 PRODUCT_COPY_FILES += \
     device/samsung/msm8974-common/keylayout/cyttsp-i2c.kl:system/usr/keylayout/cyttsp-i2c.kl \
