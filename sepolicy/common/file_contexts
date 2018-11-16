@@ -50,6 +50,9 @@
 # sysfs - cpu/perf
 /sys/module/msm_pm/modes/cpu[0-9](/.*)?                 u:object_r:sysfs_msm_perf:s0
 
+# sysfs - fingerprint
+/sys/devices/virtual/fingerprint(/.*)?                  u:object_r:sysfs_fingerprint:s0
+
 # sysfs - graphics/panel
 /sys/class/mhl(/.*)?                                    u:object_r:sysfs_graphics:s0
 /sys/devices/mdp\.[0-9](/.*)?                           u:object_r:sysfs_graphics:s0
