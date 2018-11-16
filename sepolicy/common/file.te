@@ -12,6 +12,7 @@ type sysfs_sec_epen, fs_type, sysfs_type;
 type sysfs_sec_ir, fs_type, sysfs_type;
 type sysfs_sec_key, fs_type, sysfs_type;
 type sysfs_sec_led, fs_type, sysfs_type;
+type sysfs_sec_pm, fs_type, sysfs_type;
 type sysfs_sec_switch, fs_type, sysfs_type;
 type sysfs_sec_thermistor, fs_type, sysfs_type;
 type sysfs_sec_touchkey, fs_type, sysfs_type;
